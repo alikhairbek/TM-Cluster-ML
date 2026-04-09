@@ -714,5 +714,5 @@ zip_name = f"{ROOT}_Final_{datetime.now().strftime('%Y%m%d_%H%M')}"
 zip_path = shutil.make_archive(zip_name, 'zip', ROOT)
 size_mb = os.path.getsize(zip_path) / (1024 * 1024)
 
-print(f"\n Compelet!")
+print(f"\n Compelet100!")
 print(f" {zip_path} ({size_mb:.1f} MB)")
